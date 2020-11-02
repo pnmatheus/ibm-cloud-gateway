@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Codes
-recognition.py
+./recognition.py
