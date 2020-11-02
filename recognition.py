@@ -10,7 +10,7 @@ urllib.request.urlretrieve(url_image, './assets/images/image.png')
 
 visual_recognition = VisualRecognitionV3(
     '2018-03-19',
-    iam_apikey='QwS9-bdi4FhvkYj5jh3Iv5Y4Wx0r-SMjt9PBSSRJEx7K')
+    iam_apikey='')
 
 with open('./assets/images/image.png', 'rb') as images_file:
     classes = visual_recognition.classify(
